@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(25, 19, 52);
+}
+#app{
+    width:500px;
+    height:500px;
+    background-color: white;
+    margin:100px auto;
+    position: relative;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 30px;
+}
+.cell{
+    cursor: pointer;
+}
+.occupoed{
+    cursor: not-allowed;
+}
