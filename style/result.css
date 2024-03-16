@@ -2,8 +2,8 @@ body{
     background-color: rgb(25, 19, 52);
 }
 #app{
-    width:500px;
-    height:500px;
+    width:600px;
+    height:600px;
     background-color: white;
     margin:100px auto;
     position: relative;
@@ -36,6 +36,7 @@ body{
     text-decoration: none;
     padding: 30px;
     color: black;
+    gap:20px;
 }
 .result img{
     width: 50px;
